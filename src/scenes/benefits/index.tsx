@@ -119,9 +119,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
                     </motion.div  >
                     {/* BUTTON */}
                     <div className="relative mt-16" >
-                        <div className="before:absolute before:-bottom-20 before:right-40 before:z[-1] before:content-sparkles"  >
+                        {/* <div className="before:absolute before:-bottom-20 before:right-40 before:z[-1] before:content-sparkles"  >
+                        </div> */}
                             <ActionButton setSelectedPage={setSelectedPage}>Join Now</ActionButton>
-                        </div>
                     </div>
                 </div>
             </div>
