@@ -15,7 +15,7 @@ const TeachCards = ({ Image, Header, Description, isLeft, setSelectedPage }: Pro
   return (
     <>
     <div className={isLeft ?'md:w-5/6 gap-10 md:px-10 px-5 pt-10 md:gap-20 bg-white flex flex-col md:flex-row-reverse items-center justify-between ' : 
-     ' bg-blue-20 pt-10 gap-10 md:gap-20 md:px-10 px-5 w-6/6  flex flex-col md:flex-row items-center justify-between'} >
+     ' bg-blue-20 pt-10 gap-10 md:gap-20 md:px-20 px-5 w-6/6  flex flex-col md:flex-row items-center justify-between'} >
         
         <motion.div 
         initial='hidden'
