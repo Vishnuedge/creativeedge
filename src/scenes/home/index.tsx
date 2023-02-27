@@ -18,10 +18,10 @@ const Home = ({setSelectedPage}: Props) => {
     const isAboveMediumScreens = useMediaQuery("(min-width : 1060px)");
 
   return (
-    <section id="home" className="gap-16 py-10 md:h-full md:pb-0" >
+    <section id="home" className="gap-16 py-10 h-max md:pb-0 bg-blue-20" >
         {/* IMAGE AND HEADER */}
         <motion.div
-        onViewportEnter={()=> setSelectedPage(SelectedPage.Home)}
+        onViewportEnter={()=> setSelectedPage(SelectedPage.Home)}   
         className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6" >
             {/* Main header */}
             <div className="z-10 md:mt-32 mt-16 md:basis-3/5" >
@@ -40,7 +40,7 @@ const Home = ({setSelectedPage}: Props) => {
                         <div className="before:absolute before:-top-[90px] before:-left-5 before:z-[-1] md:before:content-evlovetext">
                             {/* <img src={HomePageText} alt="Home-Page-Text" /> */}
                         <p className="text-header-100 text-4xl md:text-[70px] font-montserrat font-bold flex my-0" >CREATIVE<span className="ml-5" >EDGE</span></p>
-                        <p className="text-header-100 text-3xl font-montserrat font-thin md:text-[50px] mt-5">groove galore</p>
+                        <p className="text-header-100 text-3xl font-montserrat font-thin md:text-[50px] md:mt-5 mt-3">groove galore</p>
                         </div>
                     </div>
                     <p className="mt-12 text-md md:text-start">Welcome to Creative Edge Dance Company! 
